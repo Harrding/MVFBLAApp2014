@@ -36,7 +36,7 @@ public abstract class BaseScreen implements Screen {
 
 	@Override
 	public void resize(int width, int height) {
-		stage.setViewport(1080, 1080, false);
+		stage.setViewport(width, height, true);
 	}
 
 	@Override
